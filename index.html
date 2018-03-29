@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TREMORS - BIG AND SMALL</title>
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+
+  <!--D3 cdn-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet.timeline@1.2.0/dist/leaflet.timeline.min.js"></script>
+  <!-- <script src="http://skeate.github.io/Leaflet.timeline"></script> -->
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+  <div class="jumbotron">
+        <div class="container">
+            <h1>Mapping Earthquakes</h1>
+            <p> Do you want to know where Earthquakes occured in Earth in the last 24 hours?  
+            </p>
+        </div>
+    </div>
+
+
+
+  <!-- The div where we will inject our map -->
+  <div id="map"></div>
+
+
+  <script type="text/javascript" src="logic.js"></script>
+</body>
+</html>
